@@ -35,8 +35,10 @@ end
 
 def shoe_size(player_name)
   game_hash.each do |location, keys|
-    keys[:players]
-
+    keys[:players].each do |player|
+      return plater[:shoe] if player[:player_name] == player_name
+    end 
+  end 
 end 
 
 
