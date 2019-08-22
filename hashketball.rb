@@ -41,7 +41,25 @@ def shoe_size(player_name)
   end 
 end 
 
+def team_colors(team_name)
+  game_hash.each do |location, keys|
+    keys[:team_name].each do 
+end 
 
+
+def team_names
+  
+end 
+
+
+def player_numbers(team_name)
+  
+end 
+
+
+def player_stats(player_name)
+  
+end 
 
 
 
