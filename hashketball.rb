@@ -27,7 +27,7 @@ end
 
 def num_points_scored(player_name)
   game_hash.each do |location, keys|
-    keys[:players].each do 
+    keys[:players].each do |player|
     
           
 end 
