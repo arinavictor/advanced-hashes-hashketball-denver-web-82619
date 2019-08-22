@@ -54,6 +54,7 @@ end
 
 
 def player_numbers(team_name)
+  game_hash.map {|location, keys| 
   
 end 
 
