@@ -49,7 +49,7 @@ def team_colors(team_name)
 
 
 def team_names
-  
+  game_hash.each do 
 end 
 
 
