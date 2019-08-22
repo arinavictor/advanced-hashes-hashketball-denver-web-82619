@@ -56,7 +56,7 @@ end
 def player_numbers(team_name)
   game_hash.each do |location, keys|
     if keys[:team_name] == team_name
-      return keys[:players].collect { |players| player[:number] }
+      return keys[:players].collect { |player| player[:number] }
     end
   end 
 end 
