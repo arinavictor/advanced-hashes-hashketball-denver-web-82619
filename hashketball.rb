@@ -43,7 +43,7 @@ end
 
 def team_colors(team_name)
   game_hash.each do |location, keys|
-    keys[:team_name].each do 
+    if 
 end 
 
 
