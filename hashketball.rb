@@ -113,7 +113,7 @@ def winning_team
       points = player[:points]
       team_points += points
     end 
-    winning_team, 
+    winning_team, team_points = 
     
     
 end
