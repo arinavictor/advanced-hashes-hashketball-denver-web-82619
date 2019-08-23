@@ -106,7 +106,7 @@ def winning_team
   total_points = 0 
   winning_team = nil 
   
-  game_hash.each do |
+  game_hash.each do |location, 
 end
 
 def player_with_longest_name
