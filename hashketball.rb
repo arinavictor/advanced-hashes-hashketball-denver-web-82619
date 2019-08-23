@@ -103,7 +103,9 @@ mvp
 end 
 
 def winning_team 
-  best_team = 0 
+  home_team = 0 
+  away_team = 0 
+  
   
 end 
 
