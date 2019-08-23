@@ -127,7 +127,8 @@ def player_with_longest_name
       player_name = player[:player_name]
       if player_name.length > most_letters
         most_letters = player_name.length 
-        longest_name = 
+        longest_name = plater[:player_name]
+        
     
 end 
 
