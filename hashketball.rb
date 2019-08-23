@@ -77,7 +77,7 @@ def big_shoe_rebounds
   rebounds = 0 
   game_hash.each do |location, keys|
     keys[:players].each do |player|
-      size = 
+      size = player[:shoe]
       if value[:shoes] > big_shoes
         big_shoes = value[:shoes]
         rebound = value[:rebound]
