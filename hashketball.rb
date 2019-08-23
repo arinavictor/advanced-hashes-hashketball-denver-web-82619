@@ -89,7 +89,7 @@ end
 
 def most_points_scored
   most_points = 0 
-  mvp = nil 
+  mvp = ''
   game_hash.each do |location, keys|
     keys[:players].each do |player|
       points = player[:points]
