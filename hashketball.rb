@@ -64,7 +64,7 @@ end
 
 def player_stats(player_name)
   game_hash.each do |location, keys|
-  keys[:players].each do |
+  keys[:players].each do |player, value|
 end 
 
 
