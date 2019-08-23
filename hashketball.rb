@@ -114,8 +114,8 @@ def winning_team
       team_points += points
     end 
     winning_team, total_points = team_name, team_points if team_points > total_points
-    
-    
+  end 
+  winning_team
 end
 
 def player_with_longest_name
