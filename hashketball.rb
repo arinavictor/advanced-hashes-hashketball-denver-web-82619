@@ -102,21 +102,24 @@ def most_points_scored
 mvp  
 end 
 
-def winning_team 
-  home_team = 0
-  away_team = 0
-  
-  game_hash[:home][:players].each do |name, values|
-       home_points += values[:points]
-      end
-      game_hash[:away][:players].each do |name, values|
-    away_points += values[:points]
-end
-if home_team > away_team
-  return game_hash[:home][:team_name]
-else
-  return game_hash[:away][:team_name]
-end
+def winning_team
+  home_team_points = 0
+  away_team_points = 0
+  game_hash[:home][:players].each do |player|
+    player.each_value do |stats|
+      home_team_points += stats[:points]
+    end
+  end
+  game_hash[:away][:players].each do |player|
+    player.each_value do |stats|
+      away_team_points += stats[:points]
+    end
+  end
+  if home_team_points > away_team_points
+    game_hash[:home][:team_name]
+  else
+    game_hash[:away][:team_name]
+  end
 end
 
 def player_with_longest_name
