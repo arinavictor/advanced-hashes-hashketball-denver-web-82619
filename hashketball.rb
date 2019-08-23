@@ -110,7 +110,10 @@ def winning_team
     home_team += values[:points]
   end 
   game_hash[:away][:players].each do |player, values|
+    away_team += values[:points]
   end 
+  
+  
   
 end 
 
