@@ -119,7 +119,10 @@ def winning_team
 end
 
 def player_with_longest_name
-  longest = 
+  longest_name = ''
+  longest_length = 0 
+  
+  game_hash.each 
 end 
 
 
