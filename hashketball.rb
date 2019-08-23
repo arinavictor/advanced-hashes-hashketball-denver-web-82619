@@ -103,6 +103,8 @@ mvp
 end 
 
 def winning_team
+  total_points = 0 
+  winning_team = nil 
   
 end
 
