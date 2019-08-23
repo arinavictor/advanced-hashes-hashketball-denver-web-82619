@@ -106,7 +106,8 @@ def winning_team
   home_team = 0 
   away_team = 0 
   
-  game_hash[:home][:players].each do |
+  game_hash[:home][:players].each do |player, values|
+    
   
 end 
 
