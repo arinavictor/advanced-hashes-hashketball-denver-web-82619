@@ -108,7 +108,7 @@ def winning_team
 
   game_hash.each do |location, keys|
     team_points = 0 
-    team_name = game_hash[]
+    team_name = game_hash[location][]
     
     
 end
