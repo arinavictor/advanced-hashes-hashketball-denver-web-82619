@@ -106,7 +106,8 @@ def winning_team
   total_points = 0 
   winning_team = ''
 
-  game_hash.each do |location, team|
+  game_hash.each do |location, team_data|
+    
     
 end
 
