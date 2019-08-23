@@ -116,7 +116,8 @@ def winning_team
   if home_team > away_team
     return game_hash[:home][:team_name]
   else 
-    return 
+    return game_hash[:away][:team_name]
+  end 
   
 end 
 
