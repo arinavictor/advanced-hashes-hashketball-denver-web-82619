@@ -113,7 +113,7 @@ def winning_team
     away_team += values[:points]
   end 
   
-  
+  if home_team > away_team
   
 end 
 
