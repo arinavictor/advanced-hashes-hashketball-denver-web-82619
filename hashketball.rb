@@ -80,7 +80,7 @@ def big_shoe_rebounds
       size = player[:shoe]
       if size > big_shoes
         big_shoes = size 
-        rebounds = 
+        rebounds = player[:rebounds]
       end 
     end 
   end 
