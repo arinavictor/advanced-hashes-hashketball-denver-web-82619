@@ -89,6 +89,7 @@ end
 
 def most_points_scored
   most_points = 0 
+  mvp = nil 
   game_hash.each do |location, keys|
     
 end 
