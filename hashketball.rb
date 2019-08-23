@@ -114,6 +114,7 @@ def winning_team
   end 
   
   if home_team > away_team
+    return game_hash[:]
   
 end 
 
