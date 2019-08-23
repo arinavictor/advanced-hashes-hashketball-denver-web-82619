@@ -141,7 +141,7 @@ def long_name_steals_a_ton?
   big_stealer = ''
   game_hash.each do |location, keys|
     keys[:players].each do |player|
-      big_stealer, most_steals, 
+      big_stealer, most_steals = player[:player_name]
 end 
 
 
