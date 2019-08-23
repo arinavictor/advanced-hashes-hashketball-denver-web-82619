@@ -130,6 +130,8 @@ def player_with_longest_name
         longest_name = plater[:player_name]
       end 
     end 
+  end 
+  longest_name
     
 end 
 
