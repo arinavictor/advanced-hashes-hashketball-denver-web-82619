@@ -139,7 +139,8 @@ end
 def long_name_steals_a_ton?
   most_steals = 0 
   big_stealer = ''
-  game_hash.each do |
+  game_hash.each do |location, keys|
+    keys[:players].each do 
 end 
 
 
